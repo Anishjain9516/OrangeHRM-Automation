@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: RunTest.loginPage00Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.379 s - in RunTest.loginPage00Test

@@ -1,0 +1,27 @@
+<!-- filepath: /Users/ajain/Downloads/OrangeHRM March 2025/testng.xml
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM Test Suite" parallel="false">
+    <test name="valid Login Tests">
+        <classes>
+            <class name="RunTest.loginPage00Test">
+                <methods>
+                    <include name="performforgotpassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> -->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM Test Suite">
+    <test name="Invalid Login Group">
+        <groups>
+            <run>
+                <include name="invalidLogin"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="RunTest.loginPage00Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,73 @@
+Test Scenarios
+Test scenarios are high-level descriptions of what to test.
+Examples from your list:
+
+Login Functionality
+Logout Functionality
+Forgot Password
+Dashboard Verification
+User Management
+PIM Module
+Leave Module
+Personal Details
+Search and Filter
+UI Elements
+Test Cases
+Test cases are specific conditions or steps to test within a scenario.
+Examples from your list:
+
+Login Functionality
+Valid Login: Verify that a user can log in with valid credentials.
+Invalid Login: Verify that login fails with invalid username or password and the correct error message is displayed.
+Empty Credentials: Verify that login fails when username and/or password fields are empty.
+Logout Functionality
+Verify that a logged-in user can successfully log out and is redirected to the login page.
+Forgot Password
+Verify that the "Forgot your password?" link is present and functional.
+Verify that submitting a valid username/email sends a reset link or shows a confirmation message.
+Verify error message for invalid or empty username/email.
+...and so on for each scenario.
+Summary:
+
+Test scenarios are the main features or modules to be tested (the numbered items).
+Test cases are the specific verifications under each scenario (the indented items).
+Let me know if you want this in a table or need sample code for any test case!
+
+*******************************************************************************************************************
+
+1. Login Functionality
+Valid Login:
+Verify that a user can log in with valid credentials.
+Invalid Login:
+Verify that login fails with invalid username or password and the correct error message is displayed.
+Empty Credentials:
+Verify that login fails when username and/or password fields are empty.
+2. Logout Functionality
+Verify that a logged-in user can successfully log out and is redirected to the login page.
+3. Forgot Password
+Verify that the "Forgot your password?" link is present and functional.
+Verify that submitting a valid username/email sends a reset link or shows a confirmation message.
+Verify error message for invalid or empty username/email.
+4. Dashboard Verification
+Verify that the dashboard loads correctly after login.
+Verify that dashboard widgets (like Admin, PIM, Leave, etc.) are visible.
+5. User Management
+Verify that an admin can add a new user.
+Verify that an admin can search for users.
+Verify that an admin can edit user details.
+Verify that an admin can delete a user.
+6. PIM Module
+Verify that an admin can add a new employee.
+Verify that an admin can search for employees.
+Verify that an admin can edit employee details.
+7. Leave Module
+Verify that a user can apply for leave.
+Verify that leave status is updated correctly.
+Verify that an admin can approve/reject leave requests.
+8. Personal Details
+Verify that a user can view and update their personal details.
+9. Search and Filter
+Verify that search and filter functionalities work correctly in various modules (Admin, PIM, Leave, etc.).
+10. UI Elements
+Verify that all important UI elements (logo, menus, buttons) are present and functional on each page.
+If you want sample code for any of these test cases, let me know which one to start with!

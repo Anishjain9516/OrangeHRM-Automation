@@ -1,0 +1,3 @@
+Open Terminal & then Navigate to your project directory cd "/Users/ajain/Downloads/OrangeHRM March 2025"
+Run your TestNG suite using Maven:mvn test -DsuiteXmlFile=testng.xml
+@Test(enabled = false, groups = "invalidLogin") //enabled= true to run the test 
